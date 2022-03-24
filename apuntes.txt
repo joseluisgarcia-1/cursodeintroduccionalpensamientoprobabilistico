@@ -1,0 +1,286 @@
+Escuela de matemáticas -> ruta de aprendizaje de matemáticas
+Escuela de python -> ruta de aprendizaje de python
+
+***Aplicaciones del Teorema de Bayes***
+​
+El Teorema de Bayes es uno de los mecanismos matemáticos más importantes en la actualidad. A grandes rasgos, nos permite medir nuestra certidumbre con respecto a un suceso tomando en cuenta nuestro conocimiento previo y la evidencia que tenemos a nuestra disposición. El Teorema de Bayes permea en tu vida diaria, desde descubrimientos científicos hasta coches autónomos, el Teorema de Bayes es el motor conceptual que alimenta mucho de nuestro mundo moderno.
+​
+En esta lectura me gustaría darte ejemplos de cómo se utiliza en la vida moderna para que puedas comenzar a implementarlo en tus proyectos, análisis y hasta en
+tu vida personal.
+​
+
+Turing y el código enigma de los Nazis
+​
+Casi todos sabemos que Alan Turing es uno de los padres del cómputo moderno; pocos saben que fue gracias a él que los aliados pudieron tener una ventaja decisiva cuando Turing logró descifrar el código enigma que encriptaba todas las comunicaciones nazis; pero aún menos saben que para romper este código utilizó el Teorema de Bayes.
+​
+Lo que hizo Turing fue aplicar el Teorema para descifrar un segmento de un mensaje, calcular las probabilidades iniciales y actualizar las probabilidades
+de que el mensaje era correcto cuando nueva evidencia (pistas) era presentada.
+​
+
+Finanzas
+​
+Una de las decisiones más difíciles cuando estás manejando un portafolio de inversión es determinar si un instrumento financiero (acciones, valores, bonos, etc.) se va a apreciar en el futuro y por cuánto, o si, por el contrario se debe vender el instrumento. Los portafolios managers más exitosos utilizan el Teorema de Bayes para analizar sus portafolios.
+​
+En pocas palabras, puedes determinar las probabilidades iniciales basándote en el rendimiento previo de tu portafolio o en el rendimiento de toda la bolsa y
+luego añadir evidencia (estados financieros, proyecciones del mercado, etc.) para tener una mayor confianza en las decisiones de venta o compra.
+​
+
+Derecho
+​
+El Derecho es uno de los campos más fértiles para aplicar pensamiento bayesiano. Cuando un abogado quiere defender a su cliente, puede comenzar a evaluar una probabilidad de ganar (basada en su experiencia previa, o en estadísticas sobre el número de juicios y condenados con respecto del tema legal que competa) y actualiza su probabilidad conforme vayan sucediendo los eventos del proceso jurisdiccional.
+​
+Cada nueva notificación, cada prueba y evidencia que encuentre, etc. sirve para actualizar la confianza del abogado.
+​
+
+Inteligencia artificial
+​
+El Teorema de Bayes es central en el desarrollo de sistemas modernos de inteligencia artificial. Cuando un coche autónomo se encuentra navegando en las calles, tiene que identificar todos los objetos que se encuentran en su “campo de visión” y determinar cuál es la probabilidad de tener una colisión. Esta probabilidad se actualiza con cada movimiento de cada objeto y con el propio movimiento del vehículo autónomo. Esta constante actualización de probabilidades es lo que permite que los vehículos autónomos tomen decisiones
+acertadas que eviten accidentes.
+​
+En esta rama existen muchos ejemplos como para cubrirlos todos, pero quiero por lo menos mencionar algunos casos de uso: filtros de spam, reconocimiento de voz, motores de búsqueda, análisis de riesgo crediticio, ofertas automáticas, y un largo etcétera.
+​
+Para terminar, me gustaría compartir una cita del famoso economista John Maynard Keynes que resume perfectamente el tipo de pensamiento que quiero que desarrolles: “Cuando los hechos cambian, yo cambio mi opinión. ¿Qué hace usted, señor?”
+
+
+***Garbage in, garbage out***
+
+- Calidad de nuestros datos es igual de fundamental que la precisión de nuestros cómputos
+- Cuando los datos son errados, aunque tengamos un cómputo prístino nuestros resultados serán erróneos
+- En pocas palabras: con datos errados las coclusiones serán erradas.
+
+***Clase 8 Cum Hoc Ergo Propter Hoc***
+- Dos variables están prositivamente correlacionadas cuando se mueven en la misma dirección y negativamente correlacionadas cuando se meueven en direcciones opuestas
+- Correlación no implica casualidad
+- Pueden existir variables escondidas que generen Correlación
+- Cum Hoc Ergo Propter Hoc significa: Después de esto, eso; entonces a consecuencia de esto, eso
+
+***Clase 9 Prejuicio del muestreo****
+Para generar inferencias estadísticas válidas nosotros debemos tener una muestra aleatoria y una muestra representativa
+
+- Para que un muestreo pueda servir como base para la inferencia estadística tiene que ser aleatorio
+- El prejuicio en el muestreo elimina la representatividad de las muestras
+- A veces conseguir muestras es difícil, por lo que se usa a al población de más fácil acceso (casso de estudios universitarios)
+
+***Clase 11 Falacia del francotirador de Texas***
+
+- Esta falacia se da cuando no se toma la aletoriedad en consideración
+- También sucede cuando uno se enfoca en las similitudes e ignora las diferencias
+- Cuando fallamos al tener una hipótesos de recolectar datos estamos en alto riesgo de caer en esta falacia (muy común de Data Science)
+
+***Clase 12 Porcentajes confusos***
+
+- Cuando no sabemos la cuenta total del cual se obtiene un porcentaje tenemos el riesgo de concluir falsos resultados
+- Siempre es importante ver el contexto
+- Los porcentajes, en vacío, no significan mucho
+Ejemplo:
+- Escuela A incrementó su rendimiento en 25%
+- Escuela B incrementó su rendimiento en 10%
+- Escuela C incrementó su rendimiento en 5%
+
+***Clase 13 Falacia de regresión***
+- Muchos eventos fluctúan naturalmente, por ejemplo, la temperatura promedio de una ciudad, el rendimiento de un atleta, los rendimientos de un portafolio de inversión
+- Cuando algo fluctúa y se aplican medidas correctivas se puede creer que existe un vínculo de causalidad en lugar de una regresión a la media
+
+***Clase 14 Introducción al machine learning***
+Lecturas recomendadas: https://platzi.com/cursos/machine-learning/
+https://platzi.com/cursos/scikitlearn-ml/
+https://platzi.com/cursos/scikit/
+
+"Es el campo de estudio que le da a las computadoas la habilidad de aprender sin ser explícitamente programadas"
+- El machine learning se usa cuando:
+    - Programar un algoritmo es imposible
+    - El problema es muy complejo o no se conocen algoritmos para resolverlo
+    - Ayudar a los humanos a entender patrones
+- Apredizaje supervisado vs no supervisado vs semisupervisado
+- Batch vs online learning
+- Investigar que es google assistant
+
+***Clase 15 Feature vectors****
+
+recomendado: https://platzi.com/clases/1447-fisica-matematica/17117-vectores0627/
+https://platzi.com/clases/2127-intro-algebra/33547-adicion-entre-vectores/
+
+- Se usan para representar características simbólicas o numéricas llamadas features
+- Permiten analizar un objeto desde una perspectiva matemática
+- Los algoritmos de machine learning típicamente requieren representaciones numéricas para poder ejecutar el cómputo
+- Uno de los features vectors más conocidos es la representación del color a través de RGB
+    - color = [R,G,B]
+- Procesamiento de imágenes:
+    - Gradientes, bordes, áreas, colores, etc.
+- Reconocimiento de voz:
+    - Distancia de sonidos, nivel de ruido, razón, ruido / señal, etc.
+- Spam:
+    - Dirección Ip, estructura del texto, frecuencia de palabaras, encabezados, etc.
+
+***Clase 16 Métricas de distancia***
+
+- Muchos de los algoritmos de machine learning pueden clasificarse como algoritmos de optimización
+- Lo que desean optimizar es una función que en muchas ocasiones se refiere a la distancia entre features
+x = (a,b) y = (c,d)
+
+- Distancia Euclidiana
+a = 2
+b = 3
+c = 4
+d = 5
+e = math.sqrt((a-c)**2 + (b-d)**2)
+print(e)
+2.8284271247461903
+sqrt(a-c)**2 + (b-d)**2
+
+- Distancia de manhattan
+|a-c| + |b-d|
+
+***Clase 17 Introducción al agrupamiento***
+
+- Es un proceso mediante el cual se agrupan objetos similares en clusters que los identifican
+- Se clasifica como aprendizaje no supervisado ya que no requiere la utilización de etiquetas
+- Permite entender la estructura de los datos y la similitud entre los mismos
+- Es utilizado en motores de recomendación, análisis de redes sociales, análisis de riesgo crediticio, clasificación de genes, riesgos médicos, 
+etc.
+
+***Clase 18 Agrupamiento jerárquico***
+
+- Es un algoritmo que agrupa objetos similares en grupos llamados clusters
+- El algoritmo empieza tratando a cada objeto como un cluster individual y luego realiza los siguientes pasos de manera recursiva:
+   - identifica los dos clusters con menor distancia (los más similares)
+   - Agrupa a los dos clusters en uno nuevo
+- El output final es un dendograma que muestra la relación entre objetos y grupos
+- Es importante determinar qué medida de distancia vamos a usar y los puntos a usar en cada cluster(linkage criteria)
+
+***Clase 19 Agrupamiento K-means***
+
+- Es un algoritmo que agrupa usando centroides
+- El algoritmo funciona asignando punto al azar (K define el número inicial de clusters) y después:
+    - En cada iteración el punto se ajusta a su nuevo centroide y cada punto se recalcula con la distancia con respecto a los centroides
+    - Los puntos se reasignan al nuevo centro
+    - El algoritmo se repite de manera iterativa hasta que ya no existen mejoras
+
+***Clase 20 ¿Qué son las Técnicas de agrupamiento?***
+
+¿Qué son las técnicas de agrupamiento?
+​
+El agrupamiento es una técnica de Machine Learning que consiste, en pocas palabras, en dividir cierta población en grupos con la consecuencia de
+que los datos en un grupo sean más similares entre ellos que comparado con los otros grupos.
+​
+Imagina que eres el dueño de una startup que hace e-commerce y quieres tener estrategias de venta para tus clientes. Es casi imposible diseñar 
+una estrategia por cada individuo, pero se puede utilizar el agrupamiento para dividir a los clientes en grupos que tengan similitudes relevantes
+y así reducir el problema a unas cuantas estrategias.
+​
+
+Tipos de agrupamiento
+Existen dos tipos de agrupamiento:
+​
+
+Agrupamiento estricto (hard clustering): cada dato pertenece a un grupo u otro, no hay puntos medios.
+Agrupamiento laxo (soft clustering): en lugar de asignar un dato a un grupo, se asignan probabilidades a cada dato de pertenecer o no a un grupo.
+​
+Un punto muy importante que debes considerar cuando ejecutas técnicas de agrupamiento es que debes definir muy claro a qué te refieres cuando 
+hablas de similitud entre puntos, porque esto puede ayudarte a definir el algoritmo correcto para tus necesidades particulares.
+​
+Modelos para determinar similitudes
+A grandes rasgos, existen cuatro aproximaciones para definir similitud:
+​
+
+- Modelos conectivos: asumen que los puntos más similares son los que se encuentran más cercanos en el espacio de búsqueda. Recuerda que este 
+espacio puede ser altamente dimensional cuando tus feature vectors definen muchas características a analizar. Una desventaja de este tipo de 
+modelos es que no escalan para conjuntos de datos grandes, aunque es posible utilizar una muestra y aplicar técnicas de estadística inferencial 
+para obtener resultados.
+
+- Modelos de centroide: definen similitud en términos de cercanía con el centroide del grupo. Los datos se agrupan al determinar cuál es el 
+centroide más cercano.
+- Modelos de distribución: trata de asignar probabilidades a cada dato para determinar si pertenecen a una distribución específica o no 
+(por ejemplo, normal, binomial, Poisson, etc.).
+- Modelos de densidad: analizan la densidad de los datos en diferentes regiones y dividen el conjunto en grupos, luego asignan los puntos de 
+acuerdo a las áreas de densidad en las que se haya dividido el dataset.
+​
+Acuérdate de no casarte con un modelo específico. Muchas de las mejores Ingenieras de Machine Learning y Científicas de Datos utilizan varios 
+modelos con el mismo conjunto de datos para analizar el rendimiento de los diversos algoritmos que tienen a su disposición. Así que experimenta 
+y siempre compara tus resultados antes de tomar una decisión.
+
+***Clase 21 Introducción a la clasificación***
+
+- Es el proceso mediante el cual se predice la clase de cierto dato
+- Es un tipo de aprendizaje supervisado ya que para que funcione, se necesitan etiquetas con los datos (labels)
+- Se usa en muchos dominios, incluyendo la medicina, aprobación crediticia, reconocimiento de imágenes, vehículos autónomos, etc.
+- Sigue dos pasos: aprendizaje(creación del modelo), y clasificación
+
+***Clase 22 Clasificación K-nearest neighbors***
+
+- Parte del supuesto que ya tenemos un conjunto de datos clasificado
+- Trata de encontrar los "vecinos" más cercanos
+- K se refiere a la cantidad de veciones que se usarán para clasificar un ejemplo que áun no ha sido clasificado
+- Es sencillo de aplicar y tiene aplicaciones en medicia, finanzas, agricultura, etc.
+- Es computacionalmente muy costoso y no sirve con datos de alta dimensionalidad
+
+***Clase 23 Otras técnicas de clasificación***
+
+Técnicas de clasificación
+​
+La clasificación es un tipo de Machine Learning supervisado. Esto significa que para entrenar un modelo necesitamos un conjunto de datos 
+(dataset) que ya tenga etiquetas (labels) para poder entrenar nuestros modelos.
+​
+La mejor forma de pensar en algoritmos de clasificación es pensar en el sombrero clasificador de Harry Potter. Cuando un nuevo alumno de 
+Hogwarts entra a la escuela es necesario asignarlo/clasificarlo en una de las 4 casas. El sombrero obtiene los datos cuando se lo coloca el 
+alumno y define cuál es el mejor match para su caso particular. Aquí estamos asumiendo que el sombrero es un algoritmo que ya ha sido entrenado 
+y que los alumnos son nuevos data points que tienen que ser clasificados.
+​
+
+Clasificadores lineales
+​
+Estos tipos de clasificadores se distinguen porque dividen el conjunto de datos con una línea (que puede ser multidimensional dependiendo de la 
+cantidad de features que hemos utilizado para definir a nuestros datos). Esto genera áreas dentro de nuestro espacio de búsqueda para que 
+cuando coloquemos un nuevo dato podamos clasificarlo fácilmente.
+​
+El problema con este tipo de modelos es que son pocos flexibles cuando el conjunto de datos no puede ser separado fácilmente con una simple 
+línea; por ejemplo, cuando necesitáramos una figura más compleja para dividirlo (como un polígono).
+​
+
+Regresión logística
+​
+Estos algoritmos se parecen mucho a los clasificadores lineales, con la diferencia de que no se divide simplemente con una línea, sino con un 
+gradiente que determina la probabilidad de que un punto pertenezca a una categoría u otra. Es decir, la gradiente determina la probabilidad de que un punto sea asignado a una categoría y mientras un dato se aleje más en una dirección será mayor la probabilidad de que pertenezca a una categoría.
+​
+Imagina que estos algoritmos generan un área difusa en la que no estamos seguros de la clasificación y un área clara en la que tenemos un alto 
+grado de certeza en cuanto a la categoría que pertenece un punto.
+​
+
+Nearest neighbor
+​
+Los modelos que utilizan nearest neighbor se apoyan de los datos que ya han sido clasificados para determinar la distancia entre sus “vecinos 
+más cercanos.” El algoritmo más común que utiliza esta técnica se llama K-nearest neighbors y la K representa el número de vecinos que se 
+utilizarán para clasificar los datos. En pocas palabras, se identifican los datos más cercanos y en el caso más sencillo se hace una votación 
+simple (por ejemplo, 5 azules, 2 rojos, por lo tanto azul).
+​
+Una característica de estos modelos es que “dibujan” una línea que se asemeja a una costa para clasificar los datos. Mientras K sea más grande 
+la “línea costera” se alisa y se asemeja más y más a una línea simple. Por lo tanto, la definición de K tiene un impacto importante en el 
+desempeño de nuestro algoritmo de clasificación.
+​
+
+Support Vector Machines
+​
+Estos algoritmos se diferencian por tener la habilidad de generar figuras complejas (polígonos) que pueden agrupar datos. Si la figura que 
+tendríamos que dibujar para dividir nuestros datos es diferente a una línea (círculos, polígonos, etc.), entonces estos modelos son una buena 
+opción.
+​
+
+Árboles de decisión
+​
+Este tipo de algoritmos nos permiten generar una árbol que tenemos que recorrer y tomar decisiones cada vez que avanzamos en un nivel. 
+Por ejemplo:
+
+Si un feature en análisis es mayor a 5, dibuja la línea y=2x+3, de lo contrario dibuja y=-3x+5
+Si el feature siguiente es menor a 2, dibuja otra línea y así sucesivamente.
+​
+Conclusiones
+​
+Recuerda que la decisión de qué algoritmo utilizar depende de la forma en la que tengas tus datos y la precisión que desees obtener (a cambio 
+de excluir o incluir falsos positivos y negativos). Otro punto a considerar es que estos algoritmos deben ser entrenados con datos previos y la 
+calidad de estos datos y del modelo subsecuente importan mucho para obtener la mejor clasificación.
+​
+Te invito a que consultes la documentación de Scikit-learn para que puedas profundizar en la forma en que funcionan estos algoritmos (y muchos 
+otros) y puedas saber qué tipo de parámetros se pueden ajustar y cuál es la forma de los datos que esperan. Aquí está el vínculo a la 
+documentación
+https://scikit-learn.org/stable/user_guide.html
+
+¡Compártenos tus descubrimientos!
